@@ -104,7 +104,10 @@ a {
   padding-top: 15px;
   background: linear-gradient(to top right, #4b0e8d 0%, #884db6 100%); }
   .main-header .header-logo {
-    background-image: url("https://www.youse.com.br/assets/logos/youse-logo-2f55ccd….svg"); }
+    background-image: url("https://www.youse.com.br/assets/logos/youse-logo-2f55ccd5a8a1df586c386ceb7f5b939e861b3cddc0d06223c07c5f68b2688942.svg"); }
+    @media screen and (min-width: 960px) {
+      .main-header .header-logo {
+        background-image: url("https://www.youse.com.br/assets/logos/youse-logo-negative-aeed8b9….svg"); } }
   @media screen and (min-width: 960px) {
     .main-header {
       position: static;
@@ -114,7 +117,7 @@ a {
   .main-header-logo {
     display: block;
     height: 30px;
-    background-image: url("https://www.youse.com.br/assets/logos/youse-logo-negative-aeed8b9….svg");
+    background-image: url("https://www.youse.com.br/assets/logos/youse-logo-negative-aeed8b9fa7b1b62116a3759123a474f59ad7be862f12056edf9ae234a731bbd1.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto 30px; }
@@ -122,7 +125,198 @@ a {
       .main-header-logo {
         height: 42px;
         margin: 0 auto;
-        background-image: url("https://www.youse.com.br/assets/logos/youse-logo-negative-aeed8b9….svg");
+        background-image: url("https://www.youse.com.br/assets/logos/youse-logo-negative-aeed8b9fa7b1b62116a3759123a474f59ad7be862f12056edf9ae234a731bbd1.svg");
         background-size: auto 42px; } }
+
+.quote-summary {
+  display: none; }
+  @media screen and (min-width: 960px) {
+    .quote-summary {
+      display: block;
+      padding: 0;
+      margin: 0 -20px;
+      text-align: center; } }
+
+.info-main {
+  padding: 10px 8px 15px;
+  margin: 0 15px;
+  margin-bottom: 15px;
+  background-color: #884db6;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  transition: .5s ease-in-out; }
+  @media screen and (min-width: 960px) {
+    .info-main {
+      padding: 15px 8px;
+      margin: 0 29px;
+      margin-bottom: 15px;
+      opacity: 1; } }
+
+.insurance-home {
+  position: relative;
+  left: 10px;
+  background-image: url("https://www.youse.com.br/assets/account/icon-home-71317462b8276a694bb5bb70856409ee36405fa4f7b6234a5dc2a8f341719479.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 27px; }
+
+.title-insurance {
+  padding-left: 32px;
+  margin: 0;
+  font-weight: bold;
+  color: #fff;
+  text-align: left; }
+
+.resume {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  @media screen and (min-width: 960px) {
+    .resume {
+      margin: 20px 8px 0; } }
+  @media screen and (min-width: 640px) {
+    .resume {
+      padding: 0 5px; } }
+
+.quote-summary__price__sidebar {
+  display: flex;
+  padding: 12px 10px 0;
+  margin: 4px;
+  text-align: left;
+  background-color: #7d3caf;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center; }
+  @media screen and (min-width: 960px) {
+    .quote-summary__price__sidebar {
+      padding: 12px 10px 0; } }
+
+.resume__item {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 13px 0;
+  text-align: left; }
+  @media screen and (min-width: 960px) {
+    .resume__item {
+      padding: 10px 0 7px;
+      margin-top: -7px; } }
+  @media screen and (min-width: 640px) {
+    .resume__item {
+      padding: 10px 8px 0; } }
+
+.resume__item:last-child {
+  padding-bottom: 0; }
+
+.resume__item__wrap {
+  width: 100%; }
+
+.resume__count, .resume__label {
+  display: block;
+  float: left; }
+
+.t2b-size {
+  font-size: 16px; }
+
+.h--negative, .plan-details__title, .cross-selling-details__title, .hl--negative, .plan-details__description, .t--negative, .plan-details__header .plan-details__pricing .pricing__disclaimer, .stepped-progress-bar__step-text, .cross-selling__alert-footer, .cross-selling-details__header .cross-selling-details__pricing .pricing__disclaimer {
+  color: #fff; }
+
+.t2b {
+  font-size: 1.125rem; }
+
+.resume__label {
+  margin-left: 8px;
+  font-family: "FelbridgeProRegular", sans-serif; }
+  @media screen and (min-width: 960px) {
+    .resume__label {
+      margin-left: 6px; } }
+
+.resume__count, .resume__label {
+  display: block;
+  float: left; }
+
+.t2b-size {
+  font-size: 16px; }
+
+.resume__price__whole-currency, .resume__price__whole-number {
+  font-family: "FelbridgeProBold", sans-serif; }
+
+.resume__pricing {
+  float: right;
+  font-family: "FelbridgeProBold", sans-serif; }
+
+.resume__discount__whole-currency, .resume__discount__whole-number {
+  font-family: "FelbridgeProBold", sans-serif; }
+
+.h--negative, .plan-details__title, .cross-selling-details__title, .hl--negative, .plan-details__description, .t--negative, .plan-details__header .plan-details__pricing .pricing__disclaimer, .stepped-progress-bar__step-text, .cross-selling__alert-footer, .cross-selling-details__header .cross-selling-details__pricing .pricing__disclaimer {
+  color: #fff; }
+
+.t2b {
+  font-size: 1.125rem; }
+
+.t1b, .timeline .timeline__no-events .timeline__no-events-title, .t1, .t2b, .t2m, .t2, .name-wrapper > .name, .description, .inspection-card, .modal .modal__description, .c360-event__link, .timeline .timeline__event-datetime .timeline__event-time, .timeline .timeline__event-description, .vehicle-completion__result--title::before, .select2-results__option, .t3, .account-header .account-header__account-link, .description-informations, .form__label.form__label--small, .inspection-card__destak, .inspection-card__calendar .ui-datepicker-calendar, .links-list__item, .c360-event__timestamp, .timeline .timeline__event-aside.timeline__event-locale p, .cross-selling__alert-footer, .t3m--desktop, .t3--desktop, .t4 {
+  font-family: "FelbridgeProRegular", sans-serif;
+  line-height: 1.25; }
+
+.quote-summary__price__total {
+  position: relative;
+  bottom: 4px;
+  font-weight: bold;
+  color: #fff; }
+  @media screen and (min-width: 960px) {
+    .quote-summary__price__total {
+      right: 0; } }
+
+.quote-summary__original-price {
+  margin-top: 10px;
+  color: #fff; }
+
+.hidden, .all--hide {
+  display: none; }
+
+.quote-summary__price {
+  position: relative;
+  top: 8px;
+  display: inline-block;
+  padding: 0 50px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #fff; }
+  @media screen and (min-width: 960px) {
+    .quote-summary__price {
+      top: 3px;
+      padding: 0 35px;
+      margin-top: 15px; } }
+
+.quote-summary__original-price {
+  margin-top: 10px;
+  color: #fff; }
+
+.quote-summary__price__original-price {
+  position: relative;
+  bottom: 8px;
+  font-size: 0.875em;
+  text-align: right;
+  text-decoration: line-through; }
+  @media screen and (min-width: 960px) {
+    .quote-summary__price__original-price {
+      bottom: 2px;
+      font-size: 1.05em; } }
+
+.quote-summary__price {
+  position: relative;
+  top: 8px;
+  display: inline-block;
+  padding: 0 50px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #fff; }
+  @media screen and (min-width: 960px) {
+    .quote-summary__price {
+      top: 3px;
+      padding: 0 35px;
+      margin-top: 15px; } }
 
 /*# sourceMappingURL=shared.css.map */
